@@ -1,6 +1,6 @@
 from pathlib import Path
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt #to draw the graphs 
 
 BASE = Path(__file__).resolve().parent
 DATA = BASE / "bus_maintenance_data.csv"
