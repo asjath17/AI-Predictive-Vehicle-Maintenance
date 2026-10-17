@@ -11,14 +11,14 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 # -----------------------------------
-# 1. Load Dataset
+# 1. Load Dataset and create data frame using data set 
 # -----------------------------------
 
 BASE = Path(__file__).resolve().parent
 DATA = BASE / "bus_maintenance_data.csv"
 
 df = pd.read_csv(DATA)
-
+#this gives the data set columns and rows from using shape 
 print("Dataset size:", df.shape)
 
 
